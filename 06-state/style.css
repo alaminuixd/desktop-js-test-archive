@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin: 20px auto;
+  text-align: center;
+}
+#result{
+    font-size: 25px;
+}
+#btn{
+    font-family: "poppins", arial;
+    font-size: 18px;
+    padding: 7px 20px;
+    border: none;
+    background-color: #1c83d1;
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif
+}
+.container{
+    width: 100%;
+    max-width: 1620px;
+    margin: auto;
+    padding: 30px;
+    background-color: #EEE;
+}
+.sidebar{
+    background: #CCC;
+}
+p{
+    font-size: 16px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}

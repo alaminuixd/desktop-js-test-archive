@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+ul.todos {
+  list-style-type: none;
+  background-color: #000;
+  padding: 0;
+  padding: 30px;
+}
+ul.todos > li {
+  padding: 10px 35px;
+  background-color: purple;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+}
+img.delete {
+  width: 20px;
+}
+.blue {
+  background-color: blue !important;
+}

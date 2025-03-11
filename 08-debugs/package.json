@@ -1,0 +1,12 @@
+{
+  "name": "debugs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "open": "index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

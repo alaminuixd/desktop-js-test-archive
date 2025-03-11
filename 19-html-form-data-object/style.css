@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding: 3rem;
+}
+.container {
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+}
+form {
+  max-width: 445px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+form > input {
+  display: block;
+  padding: 0.8rem;
+}
+button {
+  text-align: center;
+  border: none;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  background-color: #3b8ea9;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}

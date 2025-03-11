@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Example</title>
+    <script src="./script.js" defer></script>
+    <style>
+      body {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-size: 17px;
+      }
+      .container {
+        width: 100%;
+        max-width: 650px;
+        margin: auto;
+      }
+      #content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease; /* Smooth transition */
+        background: #f0f0f0; /* Light background for visibility */
+        padding: 0 10px; /* Padding for better appearance */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="toggleButton">Expand</button>
+      <div id="content">
+        <p>
+          This is a large paragraph that can be expanded or collapsed. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia
+          velit vitae metus tempor, a pharetra massa ultricies. Sed volutpat
+          gravida tellus, sed dapibus justo aliquam vel. Nulla facilisi. Integer
+          vestibulum turpis non magna vestibulum, et porttitor dolor volutpat.
+          Proin nec vehicula elit, et scelerisque urna.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

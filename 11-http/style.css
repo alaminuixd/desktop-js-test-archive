@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    background: #eee;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-column-gap: 1rem;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0 30px;
+  }
+  ul > li {
+    font-family: "poppins", Arial;
+    font-weight: 600;
+    background-color: #444;
+    color: #fff;
+    padding: 8px 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    max-width: 150px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  ul > li:hover{
+    background-color: #333;
+  }
