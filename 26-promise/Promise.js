@@ -24,6 +24,12 @@ class MyPromise {
       reject(error);
     }
   }
+  /* 
+  The initial task of the constructor(executor:function):
+- creates 3 variables (state:String, value:undefined and handlers:[]), 2 methods (resolve:function and reject: function) and a try catch block
+- "executor" will try to call itself using "resolve" and "reject" methods as it's arguments
+- if it failes to do that, it will invoke only reject function with the "catch" error as it's parameter.
+  */
 
   then(onFulfilled) {
     return new MyPromise((resolve) => {
