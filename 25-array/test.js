@@ -4,7 +4,7 @@ function recur(n = 0) {
 }
 console.log(recur());
 /* 
-!The value passing in recursion happens twice:
+!The value passing in a recursion happens twice:
 1) First Pass (Bottom to Top): Values are passed forward as the stack builds.
 2) Second Pass (Top to Bottom): Values are passed backward as the stack unwinds.
 

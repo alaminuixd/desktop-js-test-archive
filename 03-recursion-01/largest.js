@@ -10,6 +10,9 @@ function getLargest(arr, largest = -Infinity, index = 0) {
 }
 console.log(getLargest(arr));
 
+const getLearge2 = (arr, lergest = -Infinity, index = 0) => {
+  if (index === arr.length) return lergest;
+};
 /* 
 Call Stack Build-Up (1st Pass is callstack bottommost one: Bottom to Top)
 1. call(1): getLargest([33, 93, 37], largest = -Infinity, index = 0)
